@@ -1,0 +1,24 @@
+{
+  "name": "xml2json",
+  "version": "0.2.0",
+  "description": "Xml To Json",
+  "files": [
+    "xml2json.xsl"
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bojanbjelic/xml2json.git"
+  },
+  "author": "Bojan Bjelic <bojan@bjelic.net>",
+  "bugs": {
+    "url": "https://github.com/bojanbjelic/xml2json/issues"
+  },
+  "homepage": "https://github.com/bojanbjelic/xml2json#readme",
+  "devDependencies": {
+    "xsltproc": "0.0.3",
+    "mocha": "^3.1.0"
+  }
+}
