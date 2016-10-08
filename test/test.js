@@ -19,7 +19,7 @@ it( "Sample", function ( done ) {
 
 it( "One node", function ( done ) {
 
-  var xml = '../xml2json/test/fixture/one_node.xml';
+  var xml = 'test/fixture/one_node.xml';
   var xslt = xsltproc.transform( xml2json, xml );
 
   xslt.stdout.on( 'data', function ( data ) {
